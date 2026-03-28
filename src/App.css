@@ -16,6 +16,44 @@ body {
   padding: 0 1.5rem;
 }
 
+/* Dev banner */
+.dev-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #6c63ff;
+  color: white;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 0.4rem 0;
+  z-index: 200;
+}
+
+/* Language toggle */
+.lang-toggle {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.5rem;
+  background: transparent;
+  border: 2px solid #6c63ff;
+  color: #6c63ff;
+  border-radius: 6px;
+  padding: 0.3rem 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s, color 0.2s;
+  z-index: 100;
+}
+
+.lang-toggle:hover {
+  background: #6c63ff;
+  color: white;
+}
+
 /* Hero */
 .hero {
   min-height: 100vh;
